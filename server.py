@@ -62,7 +62,7 @@ def ledLoop(s):
 
 def alarm():
     global status
-    now = datetime.now() - timedelta(hours = 2, minutes = 20)
+    now = datetime.now() + timedelta(hours = 8)
     h = now.time().hour
     m = now.time().minute
     s = now.time().second
