@@ -12,7 +12,7 @@ status = 0
 
 @app.route("/")
 def hello():
-   now = datetime.datetime.now()
+   now = datetime.now()
    timeString = now.strftime("%Y-%m-%d %H:%M")
    templateData = {
       'title' : 'HELLO!',
